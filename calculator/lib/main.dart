@@ -97,8 +97,6 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
   Widget build(BuildContext context) {
     return Scaffold(
      //  resizeToAvoidBottomPadding: false,
-       resizeToAvoidBottomPadding: true,
-      //  resizeToAvoidBottomInset: false,
         
 
         appBar: AppBar(title: Text('Simple Calculator')),
