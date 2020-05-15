@@ -12,6 +12,7 @@ class Calculator extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Simple Calculator',
       theme: ThemeData(primarySwatch: Colors.blue),
+      
       home: SimpleCalculator(),
     );
   }
@@ -28,6 +29,7 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
   String expretion = "";
   double equationFontSize = 38.0;
   double resultFontSize = 48.0;
+
 
   buttonPressed(String buttonText) {
     setState(() {
@@ -95,8 +97,11 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
      //  resizeToAvoidBottomPadding: false,
+
+
         
 
         appBar: AppBar(title: Text('Simple Calculator')),
